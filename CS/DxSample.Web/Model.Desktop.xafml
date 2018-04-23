@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="Default">
+        <Items>
+          <Item Id="@ba7de267-f1d0-4525-9360-cffb394987cf" ViewId="OrdersChartView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemAspNetModule" Version="15.2.9.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="15.2.9.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DashboardView Id="OrdersChartView" IsNewNode="True">
+      <Items IsNewNode="True">
+        <CustomUserControlViewItemWeb Id="OrdersChart" CustomControlPath="OrdersChart.ascx" IsNewNode="True" />
+      </Items>
+      <Layout IsNewNode="True">
+        <LayoutGroup Id="Main" ShowCaption="False" Index="0" RelativeSize="100" IsNewNode="True">
+          <LayoutItem Id="OrdersChart" ViewItem="OrdersChart" Index="0" RelativeSize="6.4516129032258061" IsNewNode="True" />
+          <LayoutItem Id="@70129158-7424-48c8-8cde-4dedb18e912c" ViewItem="@70129158-7424-48c8-8cde-4dedb18e912c" Index="1" RelativeSize="93.548387096774192" IsNewNode="True" />
+        </LayoutGroup>
+      </Layout>
+    </DashboardView>
+  </Views>
+</Application>
