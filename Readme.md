@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [OrdersChart.ascx](./CS/DxSample.Web/OrdersChart.ascx) (VB: [OrdersChart.ascx](./VB/DxSample.Web/OrdersChart.ascx))
-* **[OrdersChart.ascx.cs](./CS/DxSample.Web/OrdersChart.ascx.cs) (VB: [OrdersChart.ascx](./VB/DxSample.Web/OrdersChart.ascx))**
+* **[OrdersChart.ascx.cs](./CS/DxSample.Web/OrdersChart.ascx.cs) (VB: [OrdersChart.ascx.vb](./VB/DxSample.Web/OrdersChart.ascx.vb))**
 * [orders-chart.js](./CS/DxSample.Web/Scripts/Controls/orders-chart.js) (VB: [orders-chart.js](./VB/DxSample.Web/Scripts/Controls/orders-chart.js))
 <!-- default file list end -->
 # How to display the dxChart widget in an XAF view
